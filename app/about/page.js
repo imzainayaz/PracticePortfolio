@@ -1,29 +1,3 @@
-// import Link from "next/link";
-
-// function page() {
-//   return (
-//     <div className="min-h-screen flex gap-36 py-12 px-4 sm:px-8 justify-center">
-//       <div>
-//         <h1 className="text-8xl">
-//           About me<span className="text-12xl text-red-600">.</span>
-//         </h1>
-//         <p className="mt-8 text-xl">
-//           Developing beautiful and functional websites is what I love doing, and
-//           that&rsquo;s why I give my all in every new challenge.
-//         </p>
-//       </div>
-//       <div>
-//         <ul>
-//           <li>
-//             <Link href="https://www.youtube.com/">YT</Link>
-//           </li>
-//         </ul>
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default page;
 
 import Link from "next/link";
 import {
@@ -62,7 +36,8 @@ function page() {
     },
     {
       icon: <FaInstagram className="text-3xl" />,
-      url: "https://www.instagram.com/its._.zain._.here/",
+      url: "https://www.instagram.com
+      ",
       name: "Twitter",
       color: "hover:text-purple-400",
     },
